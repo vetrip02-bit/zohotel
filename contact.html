@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact &amp; Booking — Zo-Hotel, Goa</title>
+<meta name="description" content="Enquire about a monsoon stay at Zo-Hotel, village Goa. Fourteen rooms, monsoon rates from June to September.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="header header--solid">
+  <div class="wrap header__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__name">Zo&#8209;Hotel</span>
+      <span class="brand__place">Goa &middot; India</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="stay.html">Stay</a>
+      <a href="dining.html">Dining</a>
+      <a href="journal.html">Journal</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a class="nav__cta" href="contact.html#book">Book</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow reveal">Contact</p>
+      <h1 class="display-l reveal" data-d="1" style="max-width:16ch">Come when it rains.</h1>
+      <p class="lede mt-s reveal" data-d="2">Tell us roughly when, and we will tell you what the weather is likely doing and which room you should take.</p>
+    </div>
+  </section>
+
+  <section class="section--tight" id="book">
+    <div class="wrap">
+      <form class="booking reveal" onsubmit="return false;">
+        <div class="field">
+          <label for="arrive">Arriving</label>
+          <input type="date" id="arrive" name="arrive">
+        </div>
+        <div class="field">
+          <label for="depart">Leaving</label>
+          <input type="date" id="depart" name="depart">
+        </div>
+        <div class="field">
+          <label for="guests">Guests</label>
+          <select id="guests" name="guests">
+            <option>1 guest</option><option selected>2 guests</option>
+            <option>3 guests</option><option>4 guests</option><option>More than 4</option>
+          </select>
+        </div>
+        <button class="btn btn--solid" type="submit">Check dates</button>
+      </form>
+      <p class="credits mt-s reveal" data-d="1">This form is a demonstration &mdash; connect it to your booking system, or write to us directly below.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <div class="stack reveal">
+        <p class="eyebrow">Write to us</p>
+        <h2 class="display-m">A real person reads these.</h2>
+        <form class="stack mt-m" onsubmit="return false;">
+          <div class="field"><label for="name">Your name</label><input type="text" id="name" name="name" autocomplete="name"></div>
+          <div class="field"><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email"></div>
+          <div class="field"><label for="msg">What would you like to know?</label><textarea id="msg" name="msg"></textarea></div>
+          <button class="btn btn--solid" type="submit">Send enquiry <span class="btn__arrow" aria-hidden="true">&rarr;</span></button>
+        </form>
+      </div>
+      <div class="stack reveal" data-d="1">
+        <div class="split__media"><img src="images/vagator-rain.jpg" alt="A misty monsoon morning over the Goan coast" loading="lazy"></div>
+        <div class="prose mt-m">
+          <h3 class="display-s" style="margin-bottom:.8rem">Finding us</h3>
+          <p>Village road, North Goa. Roughly forty minutes from the airport, nine minutes from the nearest beach, and two minutes from a bakery that opens at six.</p>
+          <p>
+            <strong>Phone</strong> &middot; <a href="tel:+910000000000">+91 00000 00000</a><br>
+            <strong>Email</strong> &middot; <a href="mailto:stay@zo-hotel.example">stay@zo&#8209;hotel.example</a><br>
+            <strong>Check&#8209;in</strong> &middot; from 2 pm &middot; <strong>Check&#8209;out</strong> &middot; 11 am
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <span class="brand__name">Zo&#8209;Hotel</span>
+        <p>A fourteen&#8209;room hotel in village Goa, kept deliberately small. Best in the rain, good the rest of the year.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="stay.html">Rooms &amp; rates</a></li>
+          <li><a href="dining.html">Dining</a></li>
+          <li><a href="journal.html">Journal</a></li>
+          <li><a href="contact.html#book">Book a stay</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Find us</h4>
+        <ul>
+          <li>Village road, North Goa</li>
+          <li><a href="tel:+910000000000">+91 00000 00000</a></li>
+          <li><a href="mailto:stay@zo-hotel.example">stay@zo&#8209;hotel.example</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 Zo&#8209;Hotel, Goa</span>
+      <span><a href="credits.html">Photography credits</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
